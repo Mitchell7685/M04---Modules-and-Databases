@@ -1,6 +1,13 @@
+# 11.1 - 11.2
+# >>> import zoo
+# >>> zoo.hours()
+# Open 9-5 daily
+# >>> import zoo as menagerie                                                           )
+# Open 9-5 dailyhours() 
 def hours():
     print("Open 9-5 daily")
 
+# 16.8
 from sqlalchemy import create_engine, MetaData, Table, select
 
 engine = create_engine("sqlite:///books.db")
